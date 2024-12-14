@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: Runeterra Stream Loader
+
+
+app:
+  loader:
+    api:
+      latest: https://dd.b.pvp.net/latest/core-en_us.zip
+      version: https://dd.b.pvp.net/1_0_0/core-en_us.zip
+  data:
+    output: ./output
